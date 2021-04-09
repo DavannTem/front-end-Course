@@ -7,7 +7,6 @@
     cursor: pointer;
     @include easeOut;
 
-
     .btn-line {
         width: 28px;
         height: 3px;
@@ -134,4 +133,4 @@
     .nav-item:nth-child(#{$x}) {
         transition-delay: $x * 0.1s;
     }
-} 
+}  
